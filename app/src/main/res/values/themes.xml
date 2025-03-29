@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HpExports" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.HpExports" parent="Base.Theme.HpExports" />
+
+
+    <style name="TableHeader">
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/kumbhsans_bold</item>
+        <item name="android:padding">@dimen/_8sdp</item>
+        <item name="android:background">@color/light_gray</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TableRowText">
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/kumbhsans_regular</item>
+        <item name="android:padding">@dimen/_8sdp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <string-array name="quality_options">
+        <item>HC</item>
+        <item>MC</item>
+        <item>LC</item>
+        <item>Standard</item>
+        <item>Premium</item>
+    </string-array>
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">HpExports</string>
+    <string name="Login">Login</string>
+    <string name="Please_enter_your_mobile_number_to_login">Please enter your mobile number to login</string>
+    <string name="Enter_Mobile_Number">Enter Mobile Number</string>
+    <string name="Enter_Password">Enter Password</string>
+    <string name="Welcome_to_HP_Exports">Welcome to HP Exports</string>
+    <string name="Height">Height</string>
+    <string name="Length">Length</string>
+    <string name="S.No">S.No</string>
+    <string name="Block_No">Block No</string>
+    <string name="Slab_No">Slab No</string>
+    <string name="Quality">Quality</string>
+    <string name="TOTAL_SQFT_CMS">TOTAL SQFT CMS</string>
+    <string name="SUBMIT">SUBMIT</string>
+    <string name="INCHES">INCHES</string>
+    <string name="please_enter_your_password">Please Enter Your Password</string>
+    <string name="please_enter_your_confirm_password">Please Enter Your Confirm Password</string>
+    <string name="please_enter_your_mobile_number">Please Enter Your Mobile Number</string>
+    <string name="please_enter_your_valid_mobile_number">Please Enter Your Valid Mobile Number</string>
+
+
+
+</resources>
