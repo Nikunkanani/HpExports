@@ -1,21 +1,15 @@
-package com.hpexports.Webservice;
+package com.hpexports.Webservice
 
-import android.content.Context;
-import android.content.SharedPreferences;
+import android.content.Context
+import android.content.SharedPreferences
 
 //import com.neighborlyeats.model.Login.UserStoreDetails;
+class UserLocalStore(context: Context) {
+    var userLocalDatabase: SharedPreferences
 
-public class UserLocalStore {
-
-    public static final String SP_NAME = "userDetails";
-    SharedPreferences userLocalDatabase;
-
-    public UserLocalStore(Context context) {
-        userLocalDatabase = context.getSharedPreferences(SP_NAME, 0);
-
-    }
-
-    /*public void storeUserData(UserStoreDetails cUser ) {
+    init {
+        userLocalDatabase = context.getSharedPreferences(SP_NAME, 0)
+    } /*public void storeUserData(UserStoreDetails cUser ) {
         SharedPreferences.Editor userLocalDatabaseEditor = userLocalDatabase.edit();
         userLocalDatabaseEditor.putString("token", cUser.getToken());
         userLocalDatabaseEditor.putString("userId", cUser.getId());
@@ -79,4 +73,7 @@ public class UserLocalStore {
     }*/
 
 
+    companion object {
+        const val SP_NAME: String = "userDetails"
+    }
 }
